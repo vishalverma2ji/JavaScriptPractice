@@ -1,0 +1,58 @@
+loops:- when we want to perform any task repetedaly .
+
+in js there arfe five loops
+1. for loops
+2. while loops
+3. do while loops
+4. for in
+5. for of
+
+> for loops : when we know the iteration .
+
+syntax-
+for(initialization; condition, incr/decr){
+    satement;
+}
+
+> while loops: when we know the condition but not know iteration and also this is enter control loops.
+
+syntax:
+
+initilization 
+while(condition);
+statement;
+incr/decr
+
+> do while loops: it execute once and it is also known as exit control loops.
+syntax-
+
+init;
+do {
+
+    statement
+    incr/ decr
+    
+}while(condition)
+
+
+> for in: it wil return the keys or index of array and object.
+
+let num = [1,2,3,4];
+for(let value in num){
+    console.log(value);// 0 1 2 3 index number
+    keys:  value
+    name: vishal
+
+}
+
+> for of: it will return the value of array string.
+
+let num = [ 1,2,3,4];
+for (let value of num){
+    console.log(value)// 1 2 3 4 values
+}
+
+> interview que
+# diff b/w for in and for loops
+#  diff b/w for of and while loop
+# diff b/w while and do while loops
