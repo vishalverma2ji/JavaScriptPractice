@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DoM</title>
+</head>
+<body>
+
+<style>
+    .active {
+     background-color: green;
+     color: white;
+     padding: 10px;     
+    }
+</style>
+
+
+<!-- <! getElementById() -> -->
+ 
+<h2 id="welcome-msg"> Welcome</h2>
+
+<!--2 getElementByClassName()-->
+
+
+<!--3.getElementByTagName()-->
+
+<h4>orange</h4>
+<h4>Grapes</h4>
+
+<!--4.textContent()-->
+<h1 id ="title">old Title</h1>
+
+<!--7. innerHtml-->
+<p id ="message">old message</p>
+
+<!-- classList-->
+ <h1 class="active"> Dom classexample</h1>
+
+ <!--12, 13, 14- Attribute-->
+ <a href ="index.html" target="_blank">Link visit website</a>
+    
+ //1.getElementById()
+
+ const username =" "
+ const welcomeMsg = document.getElementById("welcome-msg");
+welcomeMsg.textContent = "Welcome, " + username === "" ? "Guest" : username;
+
+//2. getElementByClassName()
+const fruits = document.getElementsByClassName("fruits");
+
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+> Method of string
+
+1. touppercase()
+2. toLowercase()
+3. trim()
+4. split()
+5. join()
+6. substring()
+7. charAt()
+8. charCodeAt()
+9. startwith()
+10. endswith()
+11. repeate()
+12. replace()
+13. repaceAll()

@@ -1,0 +1,1 @@
+function person(name,age,salary){
